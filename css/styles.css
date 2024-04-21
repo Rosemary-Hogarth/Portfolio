@@ -185,8 +185,6 @@ h3 {
 
 }
 
-
-
 .about-section {
   margin-left: 50px;
 }
@@ -358,5 +356,8 @@ margin: 0 auto;
   font-size: 7px;
 }
 
+.click-preview {
+  display:none;
+}
 
 }
