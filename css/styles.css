@@ -48,10 +48,12 @@ h3 {
 
 }
 
-.container h1 {
+/* .container h1 {
   font-family: var(--heading-font-family);
-  font-weight: 400;
-}
+  font-weight: 300;
+  text-align: center;
+  margin-top: 30px;
+} */
 
 .container-projects {
   font-family: var(--heading-font-family);
@@ -157,7 +159,7 @@ h3 {
   background-color: #2b3035;
 }
 
-.btn-weather, .btn-clock, .btn-icecream, .btn-berlin, .btn-lingo {
+.btn-weather, .btn-clock, .btn-icecream, .btn-berlin, .btn-lingo, .btn-dict {
   text-decoration: none;
   background: #a2aaa5 ;
   color:white;
@@ -171,12 +173,15 @@ h3 {
 }
 
 
-.btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover, .btn-lingo:hover {
+.btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover, .btn-lingo:hover, .btn-dict:hover {
   text-decoration: none;
   filter: contrast(98%);
   transform: scale(1.1);
 }
 
+.btn-dict {
+  background-color: #E46E56;
+}
 .btn-lingo:hover {
   color: white;
 }
