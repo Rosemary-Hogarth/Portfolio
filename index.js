@@ -13,16 +13,15 @@ function changeWeatherPic() {
 weather.addEventListener("click", changeWeatherPic);
 
 
+const icecream = document.querySelector("#icecream");
+console.log(icecream);
 
-  const icecream = document.querySelector("#icecream");
-  console.log(icecream);
+let icecreamImageIndex = 0;
+const icecreamImages = ["images/icecream1.png", "images/icecream2.png"];
 
-  let icecreamImageIndex = 0;
-  const icecreamImages = ["images/icecream1.png", "images/icecream2.png"];
+function changeIcePic() {
+  icecream.src = icecreamImages[icecreamImageIndex];
+  icecreamImageIndex = (icecreamImageIndex + 1) % icecreamImages.length;
+}
 
-  function changeIcePic() {
-    icecream.src = icecreamImages[icecreamImageIndex];
-    icecreamImageIndex = (icecreamImageIndex + 1) % icecreamImages.length;
-  }
-
-  icecream.addEventListener("click", changeIcePic);
+icecream.addEventListener("click", changeIcePic);
