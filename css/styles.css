@@ -123,7 +123,7 @@ h3 {
   }
 
 
-  #lingo {
+  #lingo, #dict, #planet {
     border-radius: 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
   }
@@ -132,6 +132,13 @@ h3 {
     border-radius: 40px;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
   }
+
+  #planet {
+    border-radius: 40px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  }
+
+
   .project-description-1, .project-description-3 {
     margin-left: 50px;
 
@@ -164,9 +171,8 @@ h3 {
   background-color: #2b3035;
 }
 
-.btn-weather, .btn-clock, .btn-icecream, .btn-berlin, .btn-lingo, .btn-dict {
+.btn-weather, .btn-clock, .btn-icecream, .btn-berlin, .btn-lingo, .btn-dict, .btn-planet {
   text-decoration: none;
-  background: #a2aaa5 ;
   color:white;
   border-radius: 20px;
   font-size: 15px;
@@ -178,14 +184,14 @@ h3 {
 }
 
 
-.btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover, .btn-lingo:hover, .btn-dict:hover {
+.btn-weather:hover, .btn-clock:hover, .btn-icecream:hover,  .btn-berlin:hover, .btn-lingo:hover, .btn-dict:hover, .btn-planet:hover  {
   text-decoration: none;
   filter: contrast(98%);
   transform: scale(1.1);
 }
 
 .btn-dict {
-  background-color: #E46E56;
+  background-color: #000;
 }
 .btn-lingo:hover {
   color: white;
@@ -206,11 +212,23 @@ h3 {
 }
 
 .btn-lingo {
-  background: black;
+  background: #E46E56;
 }
 
+.btn-lingo:hover {
+  color: black;
+}
+
+.btn-dict:hover {
+  color: white;
+}
 .btn-weather {
   background: #F9DBD7;
+}
+
+.btn-planet {
+  color: black;
+  border: 1px solid black;
 }
 .about-section {
   margin-left: 50px;
