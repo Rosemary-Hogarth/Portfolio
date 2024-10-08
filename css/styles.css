@@ -191,7 +191,7 @@ h3 {
 }
 
 .btn-dict {
-  background-color: #000;
+  background-color: #84B8C1;
 }
 .btn-lingo:hover {
   color: white;
@@ -335,10 +335,30 @@ color:white;
 
 
 
-
-
-
 @media (max-width: 990px) {
+
+
+  .row {
+    flex-direction: column; /* Stack columns vertically on mobile */
+    align-items: center; /* Center-align items horizontally */
+  }
+
+  .col {
+    text-align: center; /* Center-align text in columns */
+  }
+
+
+  #lingo, #dict, #planet, #icecream, #dict, #weather,  #img-clock, #grammar-img {
+    margin: 0;
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
 
 .topnav a.active {
   border:none;
@@ -362,10 +382,8 @@ color:white;
     font-weight: 300;
     text-align: center;
     display:block;
-margin: 0 auto;
+    margin: 0 auto;
   }
-
-
 
 
   .btn-branding {
@@ -404,5 +422,6 @@ margin: 0 auto;
 .click-preview {
   display:none;
 }
+
 
 }
