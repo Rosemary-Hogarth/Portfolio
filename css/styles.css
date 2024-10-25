@@ -188,13 +188,16 @@ h3 {
   text-decoration: none;
   filter: contrast(98%);
   transform: scale(1.1);
+
 }
 
 .btn-dict {
   background-color: #84B8C1;
 }
+
+
 .btn-lingo:hover {
-  color: white;
+  color: black;
 }
 
 .btn-clock {
@@ -215,15 +218,16 @@ h3 {
   background: #E46E56;
 }
 
-.btn-lingo:hover {
+/* .btn-lingo:hover {
   color: black;
 }
 
 .btn-dict:hover {
-  color: white;
-}
+  color: black;
+} */
 .btn-weather {
   background: #F9DBD7;
+  color:black;
 }
 
 .btn-planet {
