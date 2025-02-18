@@ -1,4 +1,4 @@
-### Rosemary Hogarth - Web Development Portfolio
+# Rosemary Hogarth - Web Development Portfolio
 
 ### 🖼️ Project Description
 This is a static portfolio website for presenting my work as a developer. I wanted to create something visually pleasing that wouldn't distract from my actual web development projects.
