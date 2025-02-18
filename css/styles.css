@@ -23,14 +23,14 @@
   font-size: 17px;
   border-radius: 4px;
 }
-
+/*
 .topnav a:hover {
   border: 1px solid black ;
 }
 
 .topnav a.active {
   border: 1px solid black ;
-}
+} */
 nav {
   font-family: var(--heading-font-family) !important;
 
