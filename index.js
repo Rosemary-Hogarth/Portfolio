@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         <!-- TEXT COLUMN -->
         <div class="col-12 col-lg-6 ${isReversed ? "order-lg-1" : "order-lg-2"}">
-          <div class="project-description-${index + 1}  mt-5 mr-5 ml-5">
+          <div class="project-description-${index + 1}  mt-5 mr-lg-5 ml-lg-5">
             <h3 class="font-weight-light mb-3">${project.tools.join(" | ")}</h3>
             <h2 class="mb-4">${project.name}</h2>
             <p class="mb-5 text-muted description">${project.description}</p>
