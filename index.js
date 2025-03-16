@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
     `;
 
-    // ✅ Append the project card to the container
+    // Append the project card to the container
     container.appendChild(projectElement);
   });
 });
