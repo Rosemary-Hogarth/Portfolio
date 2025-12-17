@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    name: "Marie-Louise Schlutius",
+    tools: ["HTML", "CSS", "JS", "Nunjuks", "Decap CMS"],
+    description: "This project was built for a journalist who wanted their catalogue of work displayed in an playful, unconventional manner.",
+    image: "images/marie-louise.png",
+    link: "https://marie-louise-schlutius.com/",
+    buttonClass: "btn-marie-louise",
+    customClass: "marie-louise-img"
+  },
+  {
     name: "Julius Heinemann Art",
     tools: ["HTML", "CSS", "JS", "Nunjuks", "Cloudinary", "Decap CMS"],
     description: "This project was built for an artist seeking to showcase their work with a minimalistic, sleek design that reflects their artistic practice. To achieve this, I focused on dynamic image optimisation and an intuitive CMS in order to ensure the optimum viewing experience for visitors and ideal content management for the artist.",
@@ -13,7 +22,7 @@ export const projectData = [
     tools: ["HTML", "SCSS", "JS", "Ruby on Rails"],
     description: "Motivated by my interest in educational technology, I came up with this idea for a language learning game. It's a full-stack application built using Ruby on Rails and includes a game page with two language options, a dashboard with a Chart.js graph, chatrooms using Action Cable, and dark mode. This was a team project and it's hosted on Heroku.",
     image: "images/lingo-ludus.jpg",
-    link: "https://lingoludus-ac98bddb8223.herokuapp.com/",
+    link: "https://github.com/Rosemary-Hogarth/Lingo-Ludus",
     buttonClass: "btn-lingo",
     customClass: ""
   },
