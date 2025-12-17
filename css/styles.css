@@ -30,6 +30,10 @@ nav {
 
 }
 
+.navbar-light .navbar-toggler {
+  border: none !important;
+}
+
 h2 {
   font-weight: 300;
 }
@@ -348,6 +352,16 @@ color:white;
 
   .card {
     margin-bottom: 40px;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .card img {
+    box-shadow: none;
+  }
+
+  .btn {
+    box-shadow: none;
   }
 }
 
