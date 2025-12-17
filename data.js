@@ -13,7 +13,7 @@ export const projectData = [
     tools: ["HTML", "CSS", "JS", "Nunjuks", "Cloudinary", "Decap CMS"],
     description: "This project was built for an artist seeking to showcase their work with a minimalistic, sleek design that reflects their artistic practice. To achieve this, I focused on dynamic image optimisation and an intuitive CMS in order to ensure the optimum viewing experience for visitors and ideal content management for the artist.",
     image: "images/julius.png",
-    link: "https://julius-heinemann-art.netlify.app/",
+    link: "https://julius-heinemann.netlify.app/",
     buttonClass: "btn-julius",
     customClass: "julius-img"
   },
